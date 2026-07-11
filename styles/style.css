@@ -1,6 +1,53 @@
 /* Global style */
-
 * {
     margin: 0;
     padding: 0;
+}
+
+* {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* Common styles */
+.button-primary {
+    background-color: #1d4ed8;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+}
+
+.text-color-secondary {
+    color: #575757;
+}
+
+/* Navbar styles */
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+#navLink-container {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.navLink {
+    text-decoration: none;
+}
+
+#register-button {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 42px;
+    padding-right: 42px;
 }
