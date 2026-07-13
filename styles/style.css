@@ -11,6 +11,22 @@
 }
 
 /* Common styles */
+.section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 56px;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
 .button-primary {
     background-color: #1d4ed8;
     color: white;
@@ -28,7 +44,7 @@
     padding-bottom: 80px;
 }
 
-.section-header {
+.section-title {
     font-size: 56px;
     font-weight: bold;
 }
@@ -121,14 +137,6 @@
 }
 
 /* Speakers section style */
-#speaker-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 56px;
-}
-
 #speakers-grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -160,4 +168,124 @@
 .speaker-role {
     font-size: 14px;
     color: #575757;
+}
+
+/* Pricing section style */
+#pricing-grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.pricing-card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 24px;
+}
+
+.highlighted-card {
+    background-color: #0d1b2a;
+}
+
+.price-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.plan-name {
+    font-size: 13px;
+    font-weight: 600;
+    color: #888888;
+}
+
+.highlighted-plan-name {
+    color: #93c5fd;
+}
+
+.plan-price {
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.highlighted-plan-price {
+    color: white;
+}
+
+.plan-price-unit {
+    font-size: 13px;
+    font-weight: 400;
+    color: #888888;
+}
+
+.highlighted-plan-price-unit {
+    color: hsla(0, 0%, 100%, 0.5);
+}
+
+.plan-divider {
+    height: 1px;
+    width: 100%;
+    background-color: #e5e7eb;
+}
+
+.highlighted-plan-divider {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.plan-features li {
+    color: #2563eb;
+    font-size: 0.8em;
+}
+
+.highlighted-features li {
+    color: #60a5fa;
+}
+
+.plan-features {
+    padding-left: 16px;
+}
+
+.plan-features li {
+    margin-bottom: 16px;
+}
+
+.plan-features span {
+    display: inline-block;
+    font-size: 14px;
+    color: #333333;
+    padding-right: 80px;
+}
+
+.highlighted-features span {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+#standard-plan-button {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #2563eb;
+    color: #2563eb;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.pro-plan-button {
+    padding: 12px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #2563eb;
+}
+
+#team-plan-button {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #0d1b2a;
+    color: #0d1b2a;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: white;
+    border-radius: 8px;
 }
