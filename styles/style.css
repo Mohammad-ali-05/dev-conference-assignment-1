@@ -289,3 +289,32 @@
     background-color: white;
     border-radius: 8px;
 }
+
+/* Footer section style */
+footer {
+    padding-left: 114px;
+    padding-right: 114px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    background-color: #0d1b2a;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+footer a {
+    color: rgba(255, 255, 255, 0.4);
+    text-decoration: none;
+}
+
+footer li {
+    list-style: none;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-links {
+    display: flex;
+    gap: 24px;
+}
