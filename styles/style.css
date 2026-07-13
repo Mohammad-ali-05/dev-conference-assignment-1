@@ -290,6 +290,35 @@
     border-radius: 8px;
 }
 
+/* FAQ section style */
+.faq-section {
+    width: 1200px;
+    margin: auto;
+}
+
+.faq-list {
+    width: 100%;
+    display: grid;
+    gap: 24px;
+}
+
+.faq-item {
+    width: 100%;
+    border: 1px solid #1b4047;
+    border-radius: 16px;
+}
+
+.faq-item summary {
+    list-style: none;
+    padding: 24px 24px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.faq-item p {
+    padding: 0 1.5rem 1.5rem;
+    color: #52585a;
+}
 /* Footer section style */
 footer {
     padding-left: 114px;
